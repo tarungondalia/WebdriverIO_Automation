@@ -7,7 +7,7 @@ Feature: Register Feature
         When I navigate register page then all input field should be empty
         And I can see below field are mandatory
             | Salutation | First Name | Last Name | Telephone Number | Email | Password | Confim Password |
-        And I can see email consent checkbox is unchecked(currently it is checked by default)
+        And I can see email consent checkbox is checked
         Then I can see 'Create New Account' button is inActive
 
     Scenario Outline: As a user I check error message for each mandatory field
